@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="sr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Upit za venčanje i proslavu – Garden Concept Kraljevo</title>
+<meta name="description" content="Pošaljite upit za venčanje ili proslavu u Garden Concept, Kraljevo.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Upit za venčanje i proslavu – Garden Concept Kraljevo">
+<meta property="og:description" content="Pošaljite upit za venčanje ili proslavu u Garden Concept, Kraljevo.">
+<link rel="canonical" href="https://VAS-DOMEN.rs/upit.html">
+<meta property="og:url" content="https://VAS-DOMEN.rs/upit.html">
+<meta property="og:site_name" content="Garden Concept">
+<meta property="og:locale" content="sr_RS">
+<meta property="og:image" content="https://VAS-DOMEN.rs/img/sala-cvetni-plafon.jpg">
+<meta property="og:image:alt" content="Svečana sala Garden Concept sa cvetnim plafonom i kristalnim lusterima">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316161A'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='22' text-anchor='middle' fill='%23F6F3EE'%3EG%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#F6F3EE">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<main id="main">
+
+<section class="sec"><div class="wrap">
+<div class="shead lab"><span data-en="Enquiry">Upit</span><span data-en="P. 50">Str. 50</span></div>
+<div class="g12" style="margin-bottom:80px"><h1 class="h1 s8" data-en="Send an <em>enquiry</em>">Pošaljite <em>upit</em></h1><p class="lead s4 end" data-en="Tell us about your celebration. We reply as soon as possible.">Upišite podatke o proslavi. Odgovaramo u najkraćem roku.</p></div>
+<div class="g12">
+<div class="s4" style="display:grid;gap:24px;align-content:start;justify-items:start;border-top:1px solid var(--mastilo);padding-top:20px">
+<p class="lab" style="margin:0" data-en="Calendar 2027">Kalendar 2027</p>
+<h2 class="h3" data-en="Not sure which dates are available?">Niste sigurni koji su datumi slobodni?</h2>
+<a class="btn btn-o" href="datumi.html" data-en="Choose a date">Izaberi datum</a>
+</div>
+<form class="s6 o7" id="upit-form" novalidate>
+<input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+<div class="f"><label for="ime"><span data-en="Full name">Ime i prezime</span> *</label><input id="ime" name="ime" type="text" autocomplete="name" required aria-describedby="ime-err"><span class="err" id="ime-err" aria-live="polite"></span></div>
+<div class="f2">
+<div class="f"><label for="telefon"><span data-en="Phone">Telefon</span> *</label><input id="telefon" name="telefon" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="telefon-err"><span class="err" id="telefon-err" aria-live="polite"></span></div>
+<div class="f"><label for="email"><span data-en="Email">Email</span></label><input id="email" name="email" type="email" autocomplete="email" aria-describedby="email-err"><span class="err" id="email-err" aria-live="polite"></span></div>
+</div>
+<div class="f"><label for="vrsta"><span data-en="Type of celebration">Vrsta proslave</span> *</label><select id="vrsta" name="vrsta" required aria-describedby="vrsta-err"><option value="" data-en="Choose…">Izaberite…</option><option value="vencanje" data-en="Wedding">Venčanje</option><option value="punoletstvo" data-en="18th birthday">Punoletstvo</option><option value="krstenje" data-en="Christening">Krštenje</option><option value="korporativna" data-en="Corporate">Korporativna</option><option value="ispracaj" data-en="Send-off">Ispraćaj</option><option value="drugo" data-en="Other">Drugo</option></select><span class="err" id="vrsta-err" aria-live="polite"></span></div>
+<div class="f2">
+<div class="f"><label for="datum"><span data-en="Date">Datum</span> *</label><input id="datum" name="datum" type="date" required aria-describedby="datum-txt datum-err"><span class="hint" id="datum-txt" aria-live="polite"></span><span class="err" id="datum-err" aria-live="polite"></span></div>
+<div class="f"><label for="gosti"><span data-en="Number of guests">Broj gostiju</span> *</label><input id="gosti" name="gosti" type="number" min="1" inputmode="numeric" required aria-describedby="gosti-err"><span class="err" id="gosti-err" aria-live="polite"></span></div>
+</div>
+<fieldset class="f"><legend data-en="Accommodation needed">Potreban smeštaj</legend><div class="radios"><label><input type="radio" name="smestaj" value="da"><span data-en="Yes">Da</span></label><label><input type="radio" name="smestaj" value="ne" checked><span data-en="No">Ne</span></label></div></fieldset>
+<div class="f"><label for="poruka"><span data-en="Message">Poruka</span></label><textarea id="poruka" name="poruka" rows="5"></textarea><span class="err" id="poruka-err" aria-live="polite"></span></div>
+<button class="btn" type="submit" style="width:100%" data-en="Send enquiry">Pošalji upit</button>
+<p class="status" id="status" tabindex="-1" role="status"></p>
+</form>
+</div>
+<div class="strip" style="margin-top:120px"><p data-en="Would you rather call?">Radije pozovite?</p><div data-contact></div></div>
+</div></section>
+</main>
+</body>
+</html>
